@@ -22,6 +22,8 @@ nav {
 	margin: 0 auto;
 }
 
+
+
 .logo-image {
 	height: 70px;
 	float: left;
@@ -267,4 +269,137 @@ footer {
 	font-size: 16px;
 	color: #fafafa;
 	line-height: 60px;
+}
+
+
+@media screen and (max-width: 768px) {
+	header {
+		height: 50px;
+	}
+
+	nav {
+		width: 90%;
+		height: 50px;
+	}
+
+	.logo-image {
+		height: 50px;
+	}
+
+	nav ul {
+	list-style: none;
+	height: 0;
+	overflow: hidden;
+	transition: all .3s ease-out 0s;
+	}
+
+	.menu-box {
+		float: right;
+		width: 40px;
+		height: 40px;
+		border: solid 1px #fafafa;
+		margin-top: 5px;
+	}
+
+	.menu-box span {
+		display: block;
+		height: 2px;
+		width: 30px;
+		background-color: #fafafa;
+		padding: 0 5px;
+		margin: 5px auto;
+	}
+
+	.menu-box span:first-child {
+		margin-top: 10px;
+	}
+
+	.main-visual {
+		background-image: url(img/code.png);
+		background-position: center;
+		background-size: cover;
+	}
+
+	.main-visual-headline {
+		font-size: 40px;
+	}
+
+	.main-visual-text {
+		font-size: 18px;
+	}
+
+	.portfolio {
+		width: 90%;
+	}
+
+	.contents-text {
+		font-size: 16px;
+	}
+
+	.portfolio-box {
+		float: none;
+		margin: 10px auto;
+	}
+
+	.portfolio-box:nth-child(odd) {
+		display: none;
+	}
+
+	.portfolio-box:nth-child(3n) {
+		margin: 10px auto;
+	}
+
+	.feature {
+		width: 90%;
+	}
+
+	.feature-box {
+		float: none;
+		margin: 10px auto;
+		padding: 10px 0;
+	}
+
+	.feature-box:nth-child(3n) {
+		margin: 10px auto;
+	}
+
+	.profile {
+		width: 90%;
+	}
+
+	.profile-image {
+		width: 90%;
+		float: none;
+		margin: 0px auto;
+		padding-bottom: 20px;
+	}
+
+	.profile-bio {
+		width: 90%;
+		float: none;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.contact {
+		width: 90%;
+	}
+
+	.contact-info {
+		float: none;
+		margin: 0 auto;
+	}
+
+	.contact-info-item {
+		text-align: center;
+	}
+
+	.contact-sns {
+		float: none;
+		margin: 0 auto;
+	}
+
+	.contact-sns-item {
+		text-align: center;
+	}
 }
